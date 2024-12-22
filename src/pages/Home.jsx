@@ -17,7 +17,6 @@ const Home = () => {
   const isError = useSelector(selectIsError);
   const isLoading = useSelector(selectIsLoading);
   const exchangeInfo = useSelector(selectExchangeInfo);
-  console.log(exchangeInfo);
 
   return (
     <Section>
